@@ -58,7 +58,7 @@ const projectList = [
 
 const Portfolio = () => {
   return (
-    <section className="light" id="portfolio">
+    <section className="light" id="portfolio" style={{ background: "#000", color: "white"}}>
       <h2>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
@@ -72,7 +72,7 @@ const Portfolio = () => {
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <h3 style={{ flexBasis: "40px", color: "white" }}>{project.title}</h3>
               </a>
               <p className="small">{project.description}</p>
             </div>
