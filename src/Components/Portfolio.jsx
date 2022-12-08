@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Calculator 🧮",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Calculator created in order to put into practice basic knowledge of HTML, CSS and JavaScript.",
+    url: "https://alexisarte.github.io/calculator/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Pokedex 📚",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Project carried out to learn how to do data fetching from a REST API, event management and DOM.",
+    url: "https://alexisarte.github.io/pokedex/",
   },
   {
-    title: "My Resume Site",
+    title: "Inflation calculator 📈",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Project carried out in order to put into practice basic knowledge of backend (NodeJS, ExpressJs and JSON).",
+    url: "https://inflation-calculator.azurewebsites.net/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Games app 🎮",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Game application developed as a team as a final project for the language seminar (javascript) - faculty of informatics UNLP.",
+    url: "https://games-app-x6ud8.ondigitalocean.app/",
   },
 ];
 
