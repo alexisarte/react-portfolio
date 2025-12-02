@@ -26,7 +26,7 @@ const imageAltText = "woman holding laptop standing by server room with glass wa
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="dark" style={{ background: "#000"}} >
+    <section id="home" className="dark" style={{ background: "#0d1117" }}>
       {/* <img className="background" src={image} alt="" /> */}
       <div style={{ position: "absolute", top: "30%", left: "2rem" }}>
         <h1>{name}</h1>

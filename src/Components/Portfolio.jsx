@@ -31,10 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "Calculator 🧮",
+    title: "YateMate 🚤",
     description:
-      "Calculator created in order to put into practice basic knowledge of HTML, CSS and JavaScript.",
-    url: "https://alexisarte.github.io/calculator/",
+      "Game application developed as a team as a final project for the language seminar (javascript) - faculty of informatics UNLP.",
+    url: "https://games-app-3ba87f44237a.herokuapp.com/",
+  },
+  {
+    title: "Games app 🎮",
+    description:
+      "Game application developed as a team as a final project for the language seminar (javascript) - faculty of informatics UNLP.",
+    url: "https://games-app-3ba87f44237a.herokuapp.com/",
+  },
+  {
+    title: "Inflation calculator 📈",
+    description:
+      "Project carried out in order to put into practice basic knowledge of backend (NodeJS, ExpressJs and JSON).",
+    url: "",
   },
   {
     title: "Pokedex 📚",
@@ -43,22 +55,16 @@ const projectList = [
     url: "https://alexisarte.github.io/pokedex/",
   },
   {
-    title: "Inflation calculator 📈",
+    title: "Calculator 🧮",
     description:
-      "Project carried out in order to put into practice basic knowledge of backend (NodeJS, ExpressJs and JSON).",
-    url: "https://inflation-calculator.azurewebsites.net/",
-  },
-  {
-    title: "Games app 🎮",
-    description:
-      "Game application developed as a team as a final project for the language seminar (javascript) - faculty of informatics UNLP.",
-    url: "https://games-app-x6ud8.ondigitalocean.app/",
+      "Calculator created in order to put into practice basic knowledge of HTML, CSS and JavaScript.",
+    url: "https://alexisarte.github.io/calculator/",
   },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="light" id="portfolio" style={{ background: "#000", color: "white"}}>
+    <section className="light" id="portfolio" style={{ background: "#0d1117", color: "white" }}>
       <h2>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>

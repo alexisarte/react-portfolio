@@ -57,7 +57,7 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "black",
+          backgroundColor: "#0d1117",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",

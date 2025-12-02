@@ -28,11 +28,11 @@ const siteProps = {
   title: "Frontend Web Developer",
   email: "alexisrodriguezarteaga@gmail.com",
   gitHub: "alexisarte",
-  instagram: "alexisarte_",
-  linkedIn: "alexis-rodriguez-fullstack-developer",
+  // instagram: "alexisarte_",
+  linkedIn: "alexis-rodriguez-frontend-developer",
   medium: "",
-  twitter: "AlexisR95815658",
-  youTube: "Code",
+  // twitter: "AlexisR95815658",
+  // youTube: "Code",
 };
 
 const primaryColor = "#4E567E";
