@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://alexisarte.github.io/react-portfolio/'",
+    "build-gh": "parcel build --public-url /react-portfolio/",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
