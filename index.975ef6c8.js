@@ -27217,7 +27217,7 @@ const About = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
-                    backgroundColor: "#0d1117",
+                    background: "var(--gradient-bg)",
                     width: "50%",
                     padding: "4rem",
                     margin: "3rem auto",
@@ -28608,14 +28608,11 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  * freely use on your site.
  */ var _serverWallJpg = require("../images/server-wall.jpg");
 var _serverWallJpgDefault = parcelHelpers.interopDefault(_serverWallJpg);
-const imageAltText = "woman holding laptop standing by server room with glass wall";
+const imageAltText = "";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
         className: "dark",
-        style: {
-            background: "#0d1117"
-        },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
@@ -28766,7 +28763,7 @@ const Portfolio = ()=>{
         className: "light",
         id: "portfolio",
         style: {
-            background: "#0d1117",
+            background: "var(--gradient-bg)",
             color: "white"
         },
         children: [
