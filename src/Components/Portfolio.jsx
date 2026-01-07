@@ -64,7 +64,7 @@ const projectList = [
 
 const Portfolio = () => {
   return (
-    <section className="light" id="portfolio" style={{ background: "#0d1117", color: "white" }}>
+    <section className="light" id="portfolio" style={{ background: "var(--gradient-bg)", color: "white" }}>
       <h2>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>

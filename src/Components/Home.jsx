@@ -22,11 +22,11 @@ import PropTypes from "prop-types";
  */
 import image from "../images/server-wall.jpg";
 
-const imageAltText = "woman holding laptop standing by server room with glass wall";
+const imageAltText = "";
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="dark" style={{ background: "#0d1117" }}>
+    <section id="home" className="dark">
       {/* <img className="background" src={image} alt="" /> */}
       <div style={{ position: "absolute", top: "30%", left: "2rem" }}>
         <h1>{name}</h1>
